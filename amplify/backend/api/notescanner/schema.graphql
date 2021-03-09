@@ -1,0 +1,8 @@
+type Note @model {
+  id: ID!
+  userId: String!
+  title: String!
+  text: String
+  editedTime: String!
+  type: String!
+}
